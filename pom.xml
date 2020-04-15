@@ -13,11 +13,14 @@
 
     <dependencies>
 
-
-
+        <!-- 添加fastjson 依赖包. -->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.15</version>
+        </dependency>
 
     </dependencies>
-
 
     <build>
         <finalName>${project.artifactId}-${project.version}</finalName>
