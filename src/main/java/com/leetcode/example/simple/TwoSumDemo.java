@@ -5,7 +5,7 @@
  * @author zc
  * @date 2020/4/1510:14
  */
-package com.leetcode.example.twoSum;
+package com.leetcode.example.simple;
 
 import com.alibaba.fastjson.JSONObject;
 
