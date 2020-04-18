@@ -28,7 +28,7 @@ package com.leetcode.example.simple;
 public class PalindromeNumberDemo {
 
     public static void main(String[] args) {
-        int x = 121;
+        int x = 123;
 
         boolean b = isPalindrome(x);
         System.out.println(b);
@@ -41,8 +41,13 @@ public class PalindromeNumberDemo {
      * 简单实现  字符串倒转
      */
     public static boolean isPalindrome(int x) {
+        if(x < 0){
+            return false;
+        }
+        String str2 = x + "";
         StringBuilder str = new StringBuilder(x + "");
-        if(str.reverse().toString().equals(str.toString())){
+        str.reverse();
+        if(str2.equals(str.toString())){
             return true;
         }
         return false;
